@@ -1,0 +1,512 @@
+/*reset*/
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ } 
+ body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;;
+}
+a{
+    text-decoration: none;
+}
+/*header*/
+
+header{
+    padding: 34px 78px;
+    background: linear-gradient(to bottom,rgba(0,0,0,0.4)0%,rgba(0,0,0,0)100%);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+header nav{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar{
+     margin-left: -641px;
+    margin-top: 0px;
+     margin-left: -575px;
+}
+
+.logo img{
+        margin-right: -7px;
+    padding-bottom: -42px;
+    margin-bottom: -29px;
+}
+.logo{
+   margin-top: -2px;
+    margin-left: 15px;
+}
+.navbar ul{
+    display:flex;
+    list-style:none;
+    margin-left: 99px;
+}
+.navbar a{
+color: white;
+font-size:16px;
+font-weight: 500;
+
+}
+.navbar li:last-child a{
+    padding-right: 0;
+}
+
+/* .icons1 i{
+color: rgb(255, 253, 255);
+padding-right: 31px
+}*/
+
+.navbar ul li a {
+   text-decoration: none;
+   
+    padding: 10px 0;
+ border-bottom: 3px solid transparent;
+     transition: border-bottom 0.3s ease;
+  margin-right: 40px;
+    padding-bottom: 26px;
+     display: inline-block;
+}
+
+.navbar li a:hover {
+    border-bottom: 3px solid blue;  
+   
+} 
+nav {
+  border-bottom: 2px solid white; /* white line across entire navbar */
+  padding-bottom: 3px;  
+  margin-top: -16px;         /* space between links and the white line */
+}
+
+
+/* .navbar li a{
+
+}
+    
+
+.navbar li.active a{
+    border-bottom: 2px solid blue;
+} */
+
+.icons1 i{
+    color: aliceblue;
+     margin-right: -2px;
+    margin-top: 18px;
+    text-decoration:none;
+    display: inline-block;
+    padding-bottom: 24px;
+    transition: border-bottom 0.2s ease ;
+    border-bottom: 3px solid transparent;
+    padding-left: 16px;
+    padding-right: 15px;
+    
+       
+}
+.icons1 i:hover{
+border-bottom: 3px solid blue; 
+}    
+.hero img{
+
+  max-width: 100%;
+  height: auto;
+  display: block; 
+}
+.hero{
+    position:relative;
+    display: inline-block;
+
+}
+.hero .hero-info{
+position:absolute;
+top: 70%;
+left:110px;
+color: white;
+font-family: 'Oswald', sans-serif;
+font-weight: 30px;
+ font-weight: 300; 
+
+}   
+
+.hero-info button{
+    margin-top: 20px;
+    background-color: rgb(5, 130, 240);
+    color: white;
+    padding:12px 40px;
+    border: none;
+    border-radius:3px;
+}
+    
+.hero-info h1{
+    font-size: 29px;
+    font-weight: 350;
+}
+.hero-info h3{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.find{
+    width:100%;
+    text-align: center;
+    margin:auto;
+    padding-top: 100px;
+    margin-bottom: 38px
+}
+.find .row{
+    display:flex;
+    justify-content: space-evenly;
+}
+.find-col button {
+  background-color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    margin-top:10px;
+    border-radius: 3px;
+    border-color: rgb(58, 59, 59);
+    border-width: 1px;
+}
+.find-col img{
+    padding:-8px;
+    width: 64px;
+    height: 64px;
+}
+.hero2 img{
+   width:100%;
+
+}
+.hero2 .hero2-info{
+    position:absolute;
+    top: 20%;
+    margin-left: 99px;
+}
+  .hero2{
+    position:relative;
+  }  
+  .hero2-info h5{
+    height: 10px;
+    color: white;
+    margin-bottom: -24px;
+    font-weight: 400;
+  }
+ .hero2-info h1{
+    color: white;
+    font-size: 175px;
+    font-weight: 300;
+
+ }
+  .hero2-info h4{
+    color: white;
+    margin-top: -25px;
+    font-size: 21px;
+    font-weight: 400;
+  }
+  .hero2-info button {
+    background-color: transparent;
+    color:aliceblue;
+    border: 2px solid white;
+    padding: 9px 95px;
+    margin-top: 10px;
+  }
+  .hero3 img{
+    width:100%;
+   
+   
+  }
+  /* .hero3 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 70%);
+    z-index: 4;
+    position:absolute;
+  } */
+  /* .hero3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+.hero3 {
+  position: relative;
+  width: 100%; 
+  
+}
+
+.hero3 img {
+  width: 100%;
+  
+  object-fit: cover;
+
+    padding-top: 48px;
+}
+
+/* This is the dark overlay in front of the image */
+.hero3 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), transparent);
+    z-index: 1;
+    
+    margin-top: 54px;
+}
+
+/* Place the text above the overlay */
+.hero3-info {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 2;
+  color: white;
+}
+.hero3 h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: -71px;
+}
+.hero3 h1 {
+font-size: 202px;
+ font-weight: 300;
+ margin-top: -38px;
+}
+
+.hero3 h4{
+font-weight: 400;
+font-size: 19px;
+margin-top: -33px;
+}
+.hero3 button {
+background: transparent;
+color: white;
+border: 2px solid white;
+padding: 10px 100px;
+margin-top: 14px;
+}
+.hero4 {
+  width:100%;
+ 
+  position: relative;
+  margin-top: 48px;
+}
+.hero4 img {
+  width:100%;
+ 
+}
+.hero4 .overlay {
+    width: 100%;
+    height: 72vh;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.hero4 .hero4-info {
+  position:absolute;
+ 
+    bottom: 44px;
+    z-index: 2;
+    left: 92px;
+}
+
+.hero4-info h4{
+    font-size: 31px;
+    font-weight: 400;
+    color: white;
+}
+.hero4-info button {
+background: transparent;
+color: white;
+background: transparent;
+color: white;
+border: 2px solid white;
+padding: 16px 125px;
+margin-top: 38px;
+}
+.hero5 {
+  width: 100%;
+
+  margin-top: 34px;
+  position: relative;
+}
+.hero5 img {
+  width: 100%;
+ 
+}
+.hero5 .overlay {
+position: absolute;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 1;
+  height: 100%;
+  top: 0%;
+}
+.hero5-info {
+  position:absolute;
+  bottom: 18%;
+  left: 142px;
+  z-index: 2;
+}
+.hero5-info h4{
+color: white;
+  font-size: 28px;
+  font-weight: 400;
+ margin-bottom: 18px;
+}
+.hero5-info h6{
+color: white;
+font-size: 17px;
+    /* margin-bottom: 3px; */
+font-weight: 400;
+padding-bottom: 21px;
+}
+.hero5-info button{
+ padding: 10px 134px;
+ background: transparent;
+
+ color: white;
+ border: 2px solid white;
+}
+.hero6-row{
+  display:flex;
+  width: 102%;
+  height: 63vh;
+  justify-content: space-between
+}
+.hero6-row img{
+  margin-left: 91px;
+    margin-top: 39px;
+}
+.hero6-info{
+    padding-top: 172px;
+    margin-right: 237px;
+}
+.hero6-info h3{
+  font-size: 26px;
+  font-weight: 300;
+  margin-bottom: 18px;
+
+}
+.hero6-info h6{
+font-weight: 300;
+ font-size: 18px;
+}
+.hero6-info h5{
+  margin-top: 19px;
+}
+/* footer */
+.BMW{
+    display: flex;
+    padding: 2% 5%;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+}
+.all{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.all:hover{
+    color: rgb(41, 41, 196);
+}
+.endtext{
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15%;
+    position: relative;
+}
+.endtexts ul {
+    list-style-type: none;
+}
+.endtexts ul li a{
+    font-family: "Kdam Thmor Pro", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.endtexts ul li a:hover{
+    color: rgb(41, 41, 196);
+}
+.endtexts h4{
+     font-family: "Poppins", sans-serif;
+     font-size: 12px;
+}
+.end{
+    padding-top: 4%;
+    padding-bottom: 2.5%;
+    position: relative;
+    background:linear-gradient(to right,rgba(219, 215, 215, 0.445),rgba(219, 215, 215, 0.534),rgba(219, 215, 215, 0.534),rgba(219, 215, 215, 0.445));
+}
+.media{
+    margin-left: 5%;
+    margin-top: 4.5%;
+}
+.media ul{
+    list-style-type: none;
+}
+.media ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+    align-items: center;
+}
+.brand{
+    margin-top: 0.5%;
+    margin-left: 4%;
+    margin-bottom: 0.5%;
+    margin-right: 4%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.legal {
+    display: flex;
+    flex-direction: row;
+}
+.legal a{
+    color: #000000;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 10px 12px;
+    position: relative;
+    font-size: 13px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+.copy p {
+    font-size: 18px;
+}
+.legal a:hover{
+    color: rgb(41, 41, 196);
+}
+.tele{
+    position:fixed;
+    right: 3%;
+    bottom:21%;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+}
+.hov{
+    position:fixed;
+    right: 3%;
+    bottom:21%;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    opacity: 0;
+    transition: 0.2s;
+}
+.hov:hover{
+    opacity: 1;
+}
